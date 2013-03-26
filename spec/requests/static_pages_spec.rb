@@ -51,7 +51,7 @@ describe "Static pages" do
     end
 
   	it "should have the title 'About Us'" do
-  		visit '/static_pages/about'
+  		visit '/static_pages/about' 
   		page.should have_selector('title', text: "| About Us")
   	end
   end

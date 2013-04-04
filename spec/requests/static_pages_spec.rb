@@ -36,4 +36,6 @@ describe "Static pages" do
   	#it { should have_selector('title', text: " | Contact") }
   end
 
+
+
 end
